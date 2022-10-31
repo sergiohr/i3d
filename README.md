@@ -1,2 +1,5 @@
 # i3d
-Impresora 3D SLA utilizando dispositivo móvil
+Mobile 3D SLA Printer
+Final project in electronic engineering.
+
+Market and economic data may not reflect reality.
