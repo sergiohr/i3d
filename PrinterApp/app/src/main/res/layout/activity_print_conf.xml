@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ar.com.i3d.slider.MainActivity">
+
+    <Button
+        android:id="@+id/button_print"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText_calibrateTime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp"
+        android:text="Imprimir" />
+
+    <EditText
+        android:id="@+id/editText_printTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView_2"
+        android:layout_alignBottom="@+id/textView_2"
+        android:layout_alignParentEnd="true"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/button_calibrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button_print"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="22dp"
+        android:text="Calibrar"
+        tools:text="Calibrar" />
+
+    <TextView
+        android:id="@+id/textView_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button_print"
+        android:layout_marginBottom="77dp"
+        android:layout_marginEnd="17dp"
+        android:layout_toStartOf="@+id/button_print"
+        android:text="Tiempo de capa" />
+
+    <TextView
+        android:id="@+id/textView_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText_calibrateTime"
+        android:layout_alignBottom="@+id/editText_calibrateTime"
+        android:layout_alignStart="@+id/textView_2"
+        android:text="Tiempo de capa" />
+
+    <EditText
+        android:id="@+id/editText_calibrateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_calibrate"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="17dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/button_selectPath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="Seleccionar Proyecto" />
+
+    <EditText
+        android:id="@+id/editText_pathSelected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_projectName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView_projectName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_selectPath"
+        android:layout_marginTop="31dp"
+        android:layout_toEndOf="@+id/button_calibrate" />
+
+    <TextView
+        android:id="@+id/textView_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView_projectName"
+        android:layout_alignBottom="@+id/textView_projectName"
+        android:layout_alignStart="@+id/textView_2"
+        android:layout_marginStart="24dp"
+        android:text="Nombre del proyecto" />
+
+</RelativeLayout>

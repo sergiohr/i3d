@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">3D Printer App</string>
+
+    <string name="title_activity_print">print</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_calibrate">Calibrate</string>
+    <string name="subir">subir</string>
+    <string name="bajar">bajar</string>
+</resources>

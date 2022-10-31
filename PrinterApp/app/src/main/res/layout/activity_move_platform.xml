@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ar.com.itresde.printerapp.MovePlatform">
+
+    <Button
+        android:id="@+id/button_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText_moveDistance"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="84dp"
+        android:text="@string/subir" />
+
+    <Button
+        android:id="@+id/button_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button_up"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="107dp"
+        android:text="@string/bajar" />
+
+    <EditText
+        android:id="@+id/editText_moveDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="number"
+        android:labelFor="@+id/editText_moveDistance" />
+</RelativeLayout>
